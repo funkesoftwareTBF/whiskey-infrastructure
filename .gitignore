@@ -1,0 +1,69 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+.terraform/
+.terraform.lock.hcl
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Terraform plan files
+*.tfplan
+*.tfplan.*
+
+# CLI configuration files
+.terraform.d/
+
+# Sensitive data
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+*.secret
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Azure
+.azure/
+
+# Ansible (if used)
+*.retry
+.ansible/
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Logs
+*.log
+logs/
+
+# OS files
+Thumbs.db
+.Trash-*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
